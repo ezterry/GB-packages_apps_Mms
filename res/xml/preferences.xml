@@ -91,5 +91,9 @@
                         android:entries="@array/prefEntries_vibrateWhen"
                         android:entryValues="@array/prefValues_vibrateWhen"
                         android:dialogTitle="@string/prefDialogTitle_vibrateWhen" />
+    <CheckBoxPreference android:key="pref_key_mms_use_sent_timestamp"
+                        android:title="@string/pref_title_mms_use_sent_timestamp"
+                        android:summary="@string/pref_summary_mms_use_sent_timestamp"
+                        android:defaultValue="false" />
   </PreferenceCategory>
 </PreferenceScreen>
