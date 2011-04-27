@@ -61,6 +61,7 @@ public class MessagingPreferenceActivity extends PreferenceActivity {
     public static final String RETRIEVAL_DURING_ROAMING = "pref_key_mms_retrieval_during_roaming";
     public static final String AUTO_DELETE              = "pref_key_auto_delete";
     public static final String SENT_TIMESTAMP           = "pref_key_mms_use_sent_timestamp";
+    public static final String SENT_TIMESTAMP_GMT_CORRECTION = "pref_key_mms_use_sent_timestamp_gmt_correction";
 
     // Menu entries
     private static final int MENU_RESTORE_DEFAULTS    = 1;
